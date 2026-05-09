@@ -1,0 +1,36 @@
+{
+  "name": "homedify-frontend",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@tailwindcss/vite": "^4.1.18",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.23",
+    "axios": "^1.13.2",
+    "lucide-react": "^0.471.0",
+    "postcss": "^8.5.6",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.11.0",
+    "tailwindcss": "^4.1.18",
+    "vite": "^5.4.21"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.1.1",
+    "@react-oauth/google": "^0.13.4",
+    "@vladmandic/face-api": "^1.7.15",
+    "antd": "^6.3.5",
+    "canvas-confetti": "^1.9.4",
+    "react-hot-toast": "^2.6.0",
+    "react-webcam": "^7.2.0"
+  }
+}

@@ -1,0 +1,33 @@
+2026-04-19 07:51:35.775602: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-04-19 07:51:53.892921: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\haide\Desktop\CNIC_AI_System\venv\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-04-19 07:52:30.775078: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Booting up the Ultimate AI Decision Engine API...
+Loading AI Models (EasyOCR, MTCNN, DeepFace)... Please wait.
+Pre-loading EasyOCR...
+Pre-loading MTCNN Face Detector...
+Pre-loading DeepFace (ArcFace) model...
+All AI Models loaded and cached in RAM.
+ * Serving Flask app 'api'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.100.11:5001
+Press CTRL+C to quit
+127.0.0.1 - - [19/Apr/2026 07:55:00] "POST /api/scan_cnic HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 08:27:01] "POST /api/scan_cnic HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 08:28:02] "POST /api/face_match HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 08:28:40] "POST /api/face_match HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 08:31:00] "POST /api/scan_cnic HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 08:31:31] "POST /api/face_match HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 08:32:55] "POST /api/face_match HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 08:33:28] "POST /api/face_match HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 08:35:12] "POST /api/scan_cnic HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 08:40:58] "POST /api/scan_cnic HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 08:41:33] "POST /api/face_match HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 08:51:20] "POST /api/scan_cnic HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 08:59:55] "POST /api/face_match HTTP/1.1" 200 -
+127.0.0.1 - - [19/Apr/2026 09:00:45] "POST /api/face_match HTTP/1.1" 200 -

@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Build outputs
+dist/
+build/
+
+# Local configuration & IDEs
+.vscode/
+.env
+.DS_Store
+
+# Large or Temporary data
+brain/
+uploads/
+*.log
+ai_log.txt
+backend_log.txt
+
+# Stats
+stats_usage.csv
+
